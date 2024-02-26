@@ -1,8 +1,8 @@
 import * as React from "react";
-//import { Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "./App.css";
 import backgroundImage from './images/sky.jpg'; 
-//import { Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 function Home() {
   return (
@@ -25,15 +25,15 @@ function Home() {
   </strong>
 </p>
 
-//         <Card style={{ width: '18rem' }}>
-//   <Card.Body>
-//     <Card.Title>Visit My Facebook Account</Card.Title>
-//     <Card.Text>
-//       {/* Some quick example text to build on the card title and make up the bulk of the card's content. */}
-//     </Card.Text>
-//     <Button variant="primary" href="https://www.facebook.com/charisse.casilihan/">Visit</Button>
-//   </Card.Body>
-// </Card>
+        <Card style={{ width: '18rem' }}>
+  <Card.Body>
+    <Card.Title>Visit My Facebook Account</Card.Title>
+    <Card.Text>
+      {/* Some quick example text to build on the card title and make up the bulk of the card's content. */}
+    </Card.Text>
+    <Button variant="primary" href="https://www.facebook.com/charisse.casilihan/">Visit</Button>
+  </Card.Body>
+</Card>
       </div>
     </section>
   );
